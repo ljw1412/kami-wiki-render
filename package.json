@@ -1,0 +1,41 @@
+{
+  "name": "kami-wiki-render",
+  "version": "0.0.1",
+  "description": "神百科语法渲染",
+  "main": "lib/kami-wiki-render.js",
+  "module": "lib/kami-wiki-render.esm.js",
+  "browser": "lib/kami-wiki-render.umd.js",
+  "typings": "types/index.d.ts",
+  "files": [
+    "lib",
+    "src",
+    "packages",
+    "types"
+  ],
+  "bugs": {
+    "url": "https://github.com/ljw1412/kami-wiki-render/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ljw1412/kami-wiki-render.git"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "wiki",
+    "render"
+  ],
+  "author": "ljw1412",
+  "license": "MIT",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^17.0.0",
+    "@rollup/plugin-json": "^4.1.0",
+    "@rollup/plugin-node-resolve": "^11.0.0",
+    "rollup": "^2.35.0",
+    "rollup-plugin-terser": "^7.0.2",
+    "rollup-plugin-typescript2": "^0.29.0",
+    "typescript": "^4.1.3"
+  }
+}
